@@ -1,6 +1,7 @@
 # Comandos de utilidad
 
 Nota: Al crear repositorio en GitHub dice:  
+
     git init
 	git add README.md
 	git commit -m "first commit"
@@ -14,6 +15,7 @@ Nota: Al crear repositorio en GitHub dice:
 	You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 ## COMANDOS PARA GIT
+
    VERSION: git --version
    USUARIO: git config --global user.name "Marcela Malaver"
    EMAIL: git config --global user.email "marcela9409@gmail.com"
@@ -31,6 +33,7 @@ Nota: Al crear repositorio en GitHub dice:
 	REVERSAR CAMBIOS EN EL GIT: git checkout -- .
 
 ## COMANDOS ANGULAR
+
    INICIAR SERVIDOR (EN LA CARPETA DEL PROYECTO): ng serve -o
    CREAR COMPONENTE: ng g c components/header
    CREAR COMPONENTE SIN CSS: ng g c components/footer -is
