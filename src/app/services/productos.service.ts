@@ -4,8 +4,14 @@ import { Http } from "@angular/http";
 export class ProductosService {
   productos:any[]=[];
   cargando:boolean = true;
+
   constructor( private http:Http) { 
     this.cargarProductos();
+  }
+
+  public cargarProducto(cod:string){
+    this.productos
+    return this.http.get(`https://paginaweb-549ff.firebaseio.com/productos/${cod}.json`);
   }
 
   public cargarProductos(){
