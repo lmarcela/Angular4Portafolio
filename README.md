@@ -16,42 +16,42 @@ Nota: Al crear repositorio en GitHub dice:
 
 ## COMANDOS PARA GIT
 
-   VERSION: git --version
-   USUARIO: git config --global user.name "Marcela Malaver"
-   EMAIL: git config --global user.email "marcela9409@gmail.com"
-   ALIAS PARA LOGIN: git config --global alias.lg "log --oneline --decorate --all --graph"
-   ALIAS PARA STATUS: git config --global alias.s "status -s"
-   VER URL REPOSITORIO: git remote -v
-   PONER URL REPOSITORIO: git remote add origin https://github.com/lmarcela/Angular4Portafolio.git
-   SUBIR CAMBIOS: git push -u origin master
+    VERSION: git --version
+    USUARIO: git config --global user.name "Marcela Malaver"
+    EMAIL: git config --global user.email "marcela9409@gmail.com"
+    ALIAS PARA LOGIN: git config --global alias.lg "log --oneline --decorate --all --graph"
+    ALIAS PARA STATUS: git config --global alias.s "status -s"
+    VER URL REPOSITORIO: git remote -v
+    PONER URL REPOSITORIO: git remote add origin https://github.com/lmarcela/Angular4Portafolio.git
+    SUBIR CAMBIOS: git push -u origin master
 
-   VER ESTADO DE GIT: git s
-   AÑADIR ARCHIVOS AL GIT: git add .
-   CREAR COMMIT CON MENSAJE: git commit -m "ESTE ES MI MENSAJE"
-   SUBIR AL REPOSITORIO (REVISAR PRIMERO URL DEL REPOSITORIO): git push -u origin master
+    VER ESTADO DE GIT: git s
+    AÑADIR ARCHIVOS AL GIT: git add .
+    CREAR COMMIT CON MENSAJE: git commit -m "ESTE ES MI MENSAJE"
+    SUBIR AL REPOSITORIO (REVISAR PRIMERO URL DEL REPOSITORIO): git push -u origin master
 
 	REVERSAR CAMBIOS EN EL GIT: git checkout -- .
 
 ## COMANDOS ANGULAR
 
-   INICIAR SERVIDOR (EN LA CARPETA DEL PROYECTO): ng serve -o
-   CREAR COMPONENTE: ng g c components/header
-   CREAR COMPONENTE SIN CSS: ng g c components/footer -is
-   CREAR COMPONENTE SIN ARCHIVOS CSS Y SPEC: ng g c components/portafolio --spec false -is
-   CREAR SERVICIO SIN SPEC: ng g s services/information --spec false 
-   PONER EN PRODUCCION: ng build --env=prod --prod
-   HTTP-SERVER (SOLO LA PRIMERA VEZ): https://www.npmjs.com/package/http-server (npm install http-server -g)
-   EN LA CARPETA DIST DEL PROYECTO: http-server -o 
+    INICIAR SERVIDOR (EN LA CARPETA DEL PROYECTO): ng serve -o
+    CREAR COMPONENTE: ng g c components/header
+    CREAR COMPONENTE SIN CSS: ng g c components/footer -is
+    CREAR COMPONENTE SIN ARCHIVOS CSS Y SPEC: ng g c components/portafolio --spec false -is
+    CREAR SERVICIO SIN SPEC: ng g s services/information --spec false 
+    PONER EN PRODUCCION: ng build --env=prod --prod
+    HTTP-SERVER (SOLO LA PRIMERA VEZ): https://www.npmjs.com/package/http-server (npm install http-server -g)
+    EN LA CARPETA DIST DEL PROYECTO: http-server -o 
 
 ## REVISAR UN ARCHIVO JSON
 http://json.parser.online.fr/
 
 ## LINKS IMPORTANTES
-    - https://www.udemy.com/html-hacia-angular/learn/v4/overview
-	- https://firebase.google.com/
-	- https://github.com/Klerith/portafolio
-	- https://www.pixeden.com/html5-website-templates/urku-html5-portfolio-website
-	- http://themes-pixeden.com/landing/urku/index.html
+https://www.udemy.com/html-hacia-angular/learn/v4/overview
+https://firebase.google.com/
+https://github.com/Klerith/portafolio
+https://www.pixeden.com/html5-website-templates/urku-html5-portfolio-website
+http://themes-pixeden.com/landing/urku/index.html
 
 ## DESPLEGAR PROYECTO EN GITPAGES
 1. Generar carpeta dist (ng build --env=prod --prod)
