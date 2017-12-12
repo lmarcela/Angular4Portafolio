@@ -69,8 +69,12 @@ http://json.parser.online.fr/
 - http://themes-pixeden.com/landing/urku/index.html
 
 ## DESPLEGAR PROYECTO EN GITPAGES
-1. Generar carpeta dist (ng build --env=prod --prod)
+0. Revisar que en src/index.html este comentada o no exista ' < base href="/"> '. De lo contrario habra problemas al desplegar el proyecto en GitPages.
+1. Generar carpeta dist (ng build --env=prod --prod). Si se produce algun error corregir hasta que el comando se ejecute sin errores.
 2. Cambiar el nombre de la carpeta dist a docs
 3. En la configuracion (Settings) del repositorio, ir a la seccion "GitHub Pages". En Source elegir "master branch /docs folder". Luego save.
+
+
+Recuerde esperar a que termine de cargar todo el proyecto para ver satisfactoriamente el proyecto.
 4. El proyecto esta desplegado (Ej: https://lmarcela.github.io/Angular4Portafolio/#/home)
 
