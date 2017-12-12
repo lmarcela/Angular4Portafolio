@@ -74,7 +74,7 @@ http://json.parser.online.fr/
 2. Cambiar el nombre de la carpeta dist a docs
 3. En la configuracion (Settings) del repositorio, ir a la seccion "GitHub Pages". En Source elegir "master branch /docs folder". Luego save.
 
-Recuerde esperar a que termine de cargar todo el proyecto para ver satisfactoriamente el proyecto.
+   Recuerde esperar a que termine de cargar todo el proyecto para ver satisfactoriamente el proyecto.
 
 
 4. El proyecto esta desplegado (Ej: https://lmarcela.github.io/Angular4Portafolio/#/home)
