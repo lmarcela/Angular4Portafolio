@@ -4,7 +4,7 @@ Proyecto Angular de portafolio online con extracción de datos desde firebase. D
 ## Imagenes
 
 ### Home
-![alt text](\src\assets\img\readme.png)
+![Home](https://github.com/lmarcela/Angular4Portafolio/blob/master/src/assets/img/readme/1.png)
 
 # Comandos de utilidad
 
