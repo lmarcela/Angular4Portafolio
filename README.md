@@ -13,7 +13,7 @@ Proyecto Angular de portafolio online con extracción de datos desde firebase. D
 ### Vista 3. Buscar producto
 ![Buscar](https://github.com/lmarcela/Angular4Portafolio/blob/master/src/assets/img/readme/3.png)
 
-# Comandos de utilidad
+## Comandos de utilidad
 
 Nota: Al crear repositorio en GitHub dice:  
 
@@ -29,7 +29,7 @@ Nota: Al crear repositorio en GitHub dice:
 	…or import code from another repository
 	You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-## COMANDOS PARA GIT
+### COMANDOS PARA GIT
 
     VERSION: git --version
     USUARIO: git config --global user.name "Marcela Malaver"
@@ -47,7 +47,7 @@ Nota: Al crear repositorio en GitHub dice:
 
 	REVERSAR CAMBIOS EN EL GIT: git checkout -- .
 
-## COMANDOS ANGULAR
+### COMANDOS ANGULAR
 
     INICIAR SERVIDOR (EN LA CARPETA DEL PROYECTO): ng serve -o
     CREAR COMPONENTE: ng g c components/header
